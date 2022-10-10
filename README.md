@@ -1,32 +1,18 @@
 # Putting it All Together: Components and Props
 
 ## Learning Goals
-
 - Create components that return JSX
 - Use props to make components dynamic
 - Transform lists of data into lists of components
-
-## Overview
-
-Now that you've learned how to work with components in React, it's time to build
-something and put those skills to use! Your goal for this lab is to make a
-_static site_ in React to practice building components, writing JSX, and passing
-down data as props.
-
-We'll be creating a personal blog site, similar to
-[Dan Abramov's Overreacted](https://overreacted.io/):
-
+We'll be creating a personal blog site, similar to [Dan Abramov's Overreacted](https://overreacted.io/):
 ![demo](https://curriculum-content.s3.amazonaws.com/phase-2/react-hooks-component-props-mini-project/demo.png)
-
-There is some starter code available in `src/components/App.js`. There is also
-some data in `data/blog.js` that is being imported into `App` so you can pass
-it down to the components that need it.
+frt6
+Starter code available in `src/components/App.js`. There is also
+Data in `data/blog.js` that is being imported into `App` so you can pass it down to the components that need it.
 
 ## Deliverables
-
 Have a look at the components below and draw out a component hierarchy so you
 can determine how to pass data down as props.
-
 ### Header
 
 Make a `Header` component as a child of `App`. It should return:
